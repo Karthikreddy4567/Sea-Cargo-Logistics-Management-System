@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Customer | sea Cargo Logistics Company</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body class="w-full h-screen flex">
+
+    <div class="flex flex-col w-5/12 h-full justify-evenly items-start p-16 ">
+
+        <h1 class="text-6xl font-black text-btn">Sea-Cargo Logistics</h1>
+        <div class="flex flex-col w-full h-fit my-auto">
+                <h2 class="text-3xl font-semibold text-black">Connect and Ship with Ease</h2>
+                <h4 class="text-base font-medium text-gray-600 mb-4">Login to Seamlessly Manage Your Cargo</h4>
+                <div class="bg-white rounded-md">
+                    <div class="relative bg-inherit mt-4 mb-2">
+                    <input autocomplete="new-password" type="text" id="inpLEmail" name="username" class="peer bg-transparent h-10 w-3/5 rounded-md text-black text-xl font-semibold  ring-2 px-2 ring-gray-500 focus:ring-main focus:outline-none focus:border-main" placeholder="Email"/>
+               
+                    </div>
+                    <div class="relative bg-inherit mt-4 mb-2">
+                    <input autocomplete="new-password" type="password" id="inpLPassword" name="username" class="peer bg-transparent h-10 w-3/5 rounded-md text-black text-xl font-semibold  ring-2 px-2 ring-gray-500 focus:ring-main focus:outline-none focus:border-main" placeholder="Password"/>
+                
+                    </div>
+                </div>
+                <div class="flex justify-between items-start w-3/5">
+                    <h4 class="text-sm font-medium text-gray-600 ps-1 hover:text-blue-500 cursor-pointer">Forgot Password?</h4>
+                    <button id="btnLogin" class=" rounded-lg px-6 py-1 bg-btn text-lg font-medium hover:bg-main hover:text-white text-white ">Sign In</button>
+                </div>
+        </div>
+        <hr class="border border-black w-4/5">
+        <div class="flex flex-col w-full h-fit my-auto">
+                <h2 class="text-3xl font-semibold text-black">Ready to Ship? Let's Begin!</h2>
+                <h4 class="text-base font-medium text-gray-600 mb-4">Sign Up for a Smooth Cargo Experience</h4>
+                <div class="bg-white rounded-md">
+                <div class="relative bg-inherit mt-4 mb-2">
+                    <input type="text" id="inpFullname" name="username" class="peer bg-transparent h-10 w-3/5 rounded-md text-black text-xl font-semibold  ring-2 px-2 ring-gray-500 focus:ring-main focus:outline-none focus:border-main" placeholder="Full Name"/>
+                   
+                </div>
+                <div class="relative bg-inherit mt-4 mb-2">
+                    <input type="email" autocomplete='off' id="inpEmail" name="username" class="peer bg-transparent h-10 w-3/5 rounded-md text-black text-xl font-semibold  ring-2 px-2 ring-gray-500 focus:ring-main focus:outline-none focus:border-main" placeholder="Email"/>
+                    
+                </div>
+                <div class="relative bg-inherit mt-4 mb-2">
+                    <input type="text" id="inpPassword" name="inpPassword" class="peer bg-transparent h-10 w-3/5 rounded-md text-black text-xl font-semibold  ring-2 px-2 ring-gray-500 focus:ring-main focus:outline-none focus:border-main" placeholder="Password"/>
+                    
+                </div>
+                
+            </div>
+            <div class="flex justify-between items-start w-3/5">
+                <h4 class="text-sm font-medium text-gray-600 ps-1 hover:text-blue-500 cursor-pointer">Need Help?</h4>
+                <button id="btnRegister" class=" rounded-lg px-6 py-1 bg-btn text-lg font-medium hover:bg-main hover:text-white text-white ">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col w-7/12 h-screen bg-main p-16">
+
+        <div class="flex flex-col w-full h-fit ">
+            <h2 class="text-3xl font-semibold text-white">Track Your Order Now.</h2>
+            <h4 class="text-sm font-medium text-gray-200 ps-1 mb-4">Your cargo is safe and secure with us!</h4>
+            <div class="bg-main rounded-md">
+            <div class="relative bg-inherit mt-4 mb-2">
+                <input type="text" id="inpTrackingNo" name="username" class="peer bg-transparent h-14 w-3/4 rounded-md text-white text-4xl font-semibold placeholder-transparent ring-2 px-2 ring-gray-200 focus:ring-white focus:outline-none focus:border-white" placeholder="Tracking No"/>
+                <label for="username" class="absolute cursor-text left-0 -top-3 text-sm text-white bg-inherit mx-1 px-1 peer-placeholder-shown:text-lg peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-3 peer-focus:-top-3 peer-focus:text-white peer-focus:text-sm transition-all">Tracking No</label>
+            </div>
+        </div>
+        <div class="flex justify-between items-start w-3/4">
+            <h4 class="text-sm font-medium text-gray-600 ps-1">Find your tracking number?</h4>
+            <button id="btnGetStatus" class=" rounded-lg px-6 py-1 bg-btn text-xl font-medium hover:bg-white hover:text-main hover:border-wh text-white ">Track</button>
+        </div>
+        </div>
+
+    </div>
+    <script type="module" src="/JS/cusAuth.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracking Status</title>
+    <link href="../CSS/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body class="bg-bg h-screen w-full flex py-12 px-20">
+    <div class="flex flex-col w-1/2 h-full ">
+        <h1 class="text-6xl font-black text-btn mb-8">LOGO</h1>
+        <div class="flex flex-col w-full h-fit my-auto">
+            <h2 class="text-2xl font-semibold text-black">Order Tracking Status:</h2>
+            <h4 class="text-sm font-medium text-gray-600 ps-1 mb-6">Order Creation Date: mm-dd-yyyy</h4>
+            <h4 class="text-sm font-medium text-gray-600 ps-1">Order No: </h4>
+            <h2 class="text-4xl font-bold text-black mb-4" id="inpOrderNo"></h2>
+            <h4 class="text-sm font-medium text-gray-600 ps-1 ">Destination City: </h4>
+            <h2 class="text-3xl font-bold text-black mb-4" id="inpDescCity"></h2>
+        </div>
+        <h4 class="text-sm font-medium text-gray-600 ps-1 mt-10">Need Help? Customer Support</h4>
+    </div>
+
+    <div class="flex flex-col w-1/2 h-full items-end">
+        <div class="flex flex-col w-full h-fit my-auto">
+            <h2 class="text-xl font-semibold text-black">Current Status Description:</h2>
+            <h4 class="text-base font-medium text-black ps-1 mb-4" id="inpStatusDesc"></h4>
+        </div>
+        <div class="flex h-fit my-auto">
+            <img id="inpTrackingSts" src="" class="w-1/2" alt="">
+        </div>
+        <h4 class="text-sm font-medium text-gray-600 ps-1 mt-10">Have An Account? Sign In</h4>
+    </div>
+    <script src="../JS/trackingStatus.js"></script>
+</body>
+</html>

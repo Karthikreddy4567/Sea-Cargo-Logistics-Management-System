@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Customer | sea Cargo Logistics Company</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body class="w-full h-screen flex">
+
+    <div class="flex flex-col w-5/12 h-full justify-evenly items-start p-16 ">
+
+        <h1 class="text-6xl font-black text-btn">Sea-Cargo Logistics</h1>
+        <div class="flex flex-col w-full h-fit my-auto">
+                <h2 class="text-3xl font-semibold text-black">Company Portal</h2>
+                <h4 class="text-base font-medium text-gray-600 mb-4">Login to Seamlessly Manage Our Cargo</h4>
+                <fieldset>
+                    <legend id="role">Select a role:</legend>
+                  
+                    <button id="inpAgent" class=" rounded-lg px-6 py-1 bg-btn text-lg font-medium hover:bg-main hover:text-white text-white ">agent</button>
+                    <button id="inpManager" class=" rounded-lg px-6 py-1 bg-btn text-lg font-medium hover:bg-main hover:text-white text-white ">manager</button>
+                    
+                  </fieldset>
+                <div class="bg-white rounded-md">
+                    <div class="relative bg-inherit mt-4 mb-2">
+                    <input autocomplete="new-password" type="text" id="inpEmail" name="username" class="peer bg-transparent h-10 w-3/5 rounded-md text-black text-xl font-semibold  ring-2 px-2 ring-gray-500 focus:ring-main focus:outline-none focus:border-main" placeholder="Email"/>
+               
+                    </div>
+                    <div class="relative bg-inherit mt-4 mb-2">
+                    <input autocomplete="new-password" type="password" id="inpPassword" name="username" class="peer bg-transparent h-10 w-3/5 rounded-md text-black text-xl font-semibold  ring-2 px-2 ring-gray-500 focus:ring-main focus:outline-none focus:border-main" placeholder="Password"/>
+                
+                    </div>
+                </div>
+                <div class="flex justify-between items-start w-3/5">
+                    <h4 class="text-sm font-medium text-gray-600 ps-1 hover:text-blue-500 cursor-pointer">Forgot Password?</h4>
+                    <button id="btnLogin" class=" rounded-lg px-6 py-1 bg-btn text-lg font-medium hover:bg-main hover:text-white text-white ">Sign In</button>
+                </div>
+        </div>
+        
+
+    
+    <script type="module" src="../JS/userAuth.js"></script>
+</body>
+</html>
